@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropDownlistBindUsinDatabase", "DropDownlistBindUsinDatabase\DropDownlistBindUsinDatabase.csproj", "{DED026A9-A3FB-4E8E-B762-43E1D2260636}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DED026A9-A3FB-4E8E-B762-43E1D2260636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED026A9-A3FB-4E8E-B762-43E1D2260636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED026A9-A3FB-4E8E-B762-43E1D2260636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED026A9-A3FB-4E8E-B762-43E1D2260636}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {399DED23-40B7-498A-BE6F-817614EB5D9F}
+	EndGlobalSection
+EndGlobal

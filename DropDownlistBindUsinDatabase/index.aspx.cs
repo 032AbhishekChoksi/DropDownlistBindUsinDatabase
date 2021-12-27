@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -24,6 +25,9 @@ namespace DropDownlistBindUsinDatabase
             string[] attributeValues = Request.Form.GetValues("attribute");
             string[] priceValues = Request.Form.GetValues("price");
             string[] statusValues = Request.Form.GetValues("status");
+
+            string imagename = ClassRandom.GetRandomPassword(9) + "_" + Path.GetFileName(f1.FileName) ;
+            //f1.SaveAs(Request.PhysicalApplicationPath + "/media/dish/" + imagename.ToString());
         }
     }
 }

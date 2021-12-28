@@ -33,13 +33,13 @@ namespace DropDownlistBindUsinDatabase
         protected global::System.Web.UI.WebControls.Label lblcategory;
 
         /// <summary>
-        /// ddcategory_id control.
+        /// ddtcategory_id control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddcategory_id;
+        protected global::System.Web.UI.WebControls.DropDownList ddtcategory_id;
 
         /// <summary>
         /// lbldish control.
@@ -78,13 +78,13 @@ namespace DropDownlistBindUsinDatabase
         protected global::System.Web.UI.WebControls.Label lbltype;
 
         /// <summary>
-        /// ddtype control.
+        /// ddttype control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddtype;
+        protected global::System.Web.UI.WebControls.DropDownList ddttype;
 
         /// <summary>
         /// lbldishdetail control.
@@ -123,13 +123,13 @@ namespace DropDownlistBindUsinDatabase
         protected global::System.Web.UI.WebControls.FileUpload f1;
 
         /// <summary>
-        /// FileUpLoadValidator control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator FileUpLoadValidator;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
         /// lbldishattribute control.

@@ -84,7 +84,7 @@
                                     <form id="fo1" runat="server" class="forms-sample" method="post" enctype="multipart/form-data">
                                         <div class="form-group">
                                             <asp:Label ID="lblcategory" runat="server" Text="Category"></asp:Label>
-                                            <asp:DropDownList ID="ddcategory_id" runat="server" class="form-control" name="category_id">
+                                            <asp:DropDownList ID="ddtcategory_id" runat="server" class="form-control" name="category_id">
                                             </asp:DropDownList>
                                         </div>
                                         <div class="form-group">
@@ -94,7 +94,7 @@
                                         </div>
                                         <div class="form-group">
                                             <asp:Label ID="lbltype" runat="server" Text="Type"></asp:Label>
-                                            <asp:DropDownList ID="ddtype" runat="server" class="form-control" name="type">
+                                            <asp:DropDownList ID="ddttype" runat="server" class="form-control" name="type">
                                                 <asp:ListItem Value="" Selected="True">Select Type</asp:ListItem>
                                                 <asp:ListItem Value="veg">Veg</asp:ListItem>
                                                 <asp:ListItem Value="non-veg">Non Veg</asp:ListItem>
@@ -107,12 +107,13 @@
                                         <div class="form-group">
                                             <asp:Label ID="lbldishimage" runat="server" Text="Dish Image"></asp:Label>
                                             <asp:FileUpload ID="f1" accept="image/*"  runat="server" name="image" class="form-control" placeholder="Dish Image" />
-                                            <asp:RegularExpressionValidator
+                                           <%-- <asp:RegularExpressionValidator
                                                 ID="FileUpLoadValidator" runat="server"
                                                 ErrorMessage="Upload jpeg, jpe and png only."
                                                 ValidationExpression="^(([a-zA-Z]:)|(\\{2}\w+)\$?)(\\(\w[\w].*))(.jpg|.JPG|.png|.PNG)$"
                                                 ControlToValidate="f1" class="error mt8">  
-                                            </asp:RegularExpressionValidator> 
+                                            </asp:RegularExpressionValidator> --%>
+                                            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                                         </div>
 
 
